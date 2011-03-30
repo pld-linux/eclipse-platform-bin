@@ -4,17 +4,17 @@
 Summary:	Eclipse - an open extensible IDE
 Summary(pl.UTF-8):	Eclipse - otwarte, rozszerzalne środowisko programistyczne
 Name:		eclipse-platform-bin
-Version:	3.6.1
+Version:	3.6.2
 Release:	0.1
 License:	EPL v1.0
 Group:		Development/Tools
 %if %{with ix86}
-Source0:	http://download.eclipse.org/eclipse/downloads/drops/R-3.6.1-201009090800/eclipse-platform-%{version}-linux-gtk.tar.gz
-# Source0-md5:	7b3117a9707f7f1550b300ba3729d17a
+Source0:	http://download.eclipse.org/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-platform-%{version}-linux-gtk.tar.gz
+# Source0-md5:	6e68f49d0fc8954c5c35cdfc9355242f
 %endif
 %if %{with x86_64}
-Source1:	http://download.eclipse.org/eclipse/downloads/drops/R-3.6.1-201009090800/eclipse-platform-%{version}-linux-gtk-x86_64.tar.gz
-# Source1-md5:	eebb9eec2fb5680b2079c6713848af02
+Source1:	http://download.eclipse.org/eclipse/downloads/drops/R-3.6.2-201102101200/eclipse-platform-%{version}-linux-gtk-x86_64.tar.gz
+# Source1-md5:	001b3b657ba4b7ff82d76a5d36afe1b0
 %endif
 Source2:	eclipse.desktop
 Source3:	eclipse.ini
